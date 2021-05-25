@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import ZeroToken from './arkham/chaos-bag/ZeroToken'
+import Minus1Token from './arkham/chaos-bag/Minus1Token';
+import Plus1Token from './arkham/chaos-bag/Plus1Token';
+import TentaclesToken from './arkham/chaos-bag/TentaclesToken';
+import TabletToken from './arkham/chaos-bag/TabletToken';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Arkham Horror LCG State Tracker
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <div className="App-body">
+      <ZeroToken/>
+      <Minus1Token/>
+      <Plus1Token/>
+      <TentaclesToken/>
+      <TabletToken scenarioValue="-2" scenarioDrawEffect="Draw an encounter card"></TabletToken>
+      </div>
     </div>
   );
 }
