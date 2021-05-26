@@ -4,8 +4,7 @@
 }
 
 .investigator-wrapper {
-
-    min-width: 200px;
+    max-width: 600px;
     display: flex;
     background-color: black;
     flex-flow: row wrap;
@@ -31,7 +30,8 @@
 }
 
 .investigator-skill span {    
-    font-size: calc(6px + 2vmin);
+    font-size: calc(4px + 2vmin);
+    padding-right: 3px;
 }
 
 .investigator-picture {

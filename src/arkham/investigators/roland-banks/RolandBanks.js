@@ -6,7 +6,7 @@ class RolandBanks extends React.Component {
 
     render() {
         return (
-            <Investigator name="Roland Banks" class="Guardian" picture={rolandBanks} maxDamage="9" maxSanity="9" agility="2" />
+            <Investigator name="Roland Banks" class="Guardian" picture={rolandBanks} maxDamage="9" maxSanity="9" agility="2" willpower="3" intellect="3" combat="4" />
         );
     }
 }
