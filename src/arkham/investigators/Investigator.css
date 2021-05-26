@@ -1,0 +1,43 @@
+.investigator {
+    height: 0;
+    flex-grow: 1;
+}
+
+.investigator-wrapper {
+
+    min-width: 200px;
+    display: flex;
+    background-color: black;
+    flex-flow: row wrap;
+}
+
+.investigator-profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.investigator-name {    
+    font-size: calc(8px + 2vmin);
+}
+
+.investigator-class{
+    align-self: flex-end;
+}
+
+.investigator-skill {    
+    align-self: center;
+    display: flex;
+}
+
+.investigator-skill span {    
+    font-size: calc(6px + 2vmin);
+}
+
+.investigator-picture {
+    flex: 1 0 0;
+}
+
+.investigator-stats {
+    flex: 2 0 0;
+}

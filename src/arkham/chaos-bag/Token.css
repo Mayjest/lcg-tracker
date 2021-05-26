@@ -1,3 +1,9 @@
 .chaos-token {
-    border: 1px white;
+    border: 1px white solid;
+    order: 1;
+}
+
+.chaos-bag {
+    display: flex;
+    flex-wrap: wrap;
 }

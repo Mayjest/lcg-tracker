@@ -1,9 +1,11 @@
 import './App.css';
-import ZeroToken from './arkham/chaos-bag/ZeroToken'
+import ChaosBag from './arkham/chaos-bag/ChaosBag';
+import ZeroToken from './arkham/chaos-bag/ZeroToken';
 import Minus1Token from './arkham/chaos-bag/Minus1Token';
 import Plus1Token from './arkham/chaos-bag/Plus1Token';
 import TentaclesToken from './arkham/chaos-bag/TentaclesToken';
 import TabletToken from './arkham/chaos-bag/TabletToken';
+import RolandBanks from './arkham/investigators/roland-banks/RolandBanks';
 
 function App() {
   return (
@@ -14,11 +16,7 @@ function App() {
         </p>
       </header>
       <div className="App-body">
-      <ZeroToken/>
-      <Minus1Token/>
-      <Plus1Token/>
-      <TentaclesToken/>
-      <TabletToken scenarioValue="-2" scenarioDrawEffect="Draw an encounter card"></TabletToken>
+        <RolandBanks/>
       </div>
     </div>
   );

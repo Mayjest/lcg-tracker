@@ -2,10 +2,7 @@ import React from 'react';
 import './Token.css';
 
 class Token extends React.Component {
-    // constructor(props) {
-    //     super(props)
-    // }
-
+    
     render() {
         return (
             <div className="chaos-token">
@@ -13,7 +10,11 @@ class Token extends React.Component {
                 <br/>
                 value={this.props.value}
                 <br/>
-                value={this.props.drawEffect}
+                {this.props.drawEffect &&
+                    <div>  
+                        value={this.props.drawEffect}
+                    </div>
+                }
             </div>
         );
     }
