@@ -1,0 +1,14 @@
+
+
+.stat-tracker {
+    display: flex;
+    justify-content: center;
+}
+
+.stat-tracker button {
+    margin: 0px 5px;
+}
+
+.stat-tracker span {
+    min-width: 85px;
+}

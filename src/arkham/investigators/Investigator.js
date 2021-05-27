@@ -4,6 +4,7 @@ import agility from './agility.png';
 import willpower from './willpower.png';
 import combat from './combat.png';
 import intellect from './intellect.png';
+import StatTracker from './StatTracker';
 
 class Investigator extends React.Component {
 
@@ -88,16 +89,8 @@ class Investigator extends React.Component {
                         <img src={this.props.picture} alt={this.props.name}/>
                     </div>
                     <div className="investigator-stats">
-                        <div>
-                            <button onClick={this.reduceDamage}>-</button>
-                            Damage: {this.state.currentDamage}/{this.props.maxDamage}
-                            <button onClick={this.increaseDamage}>+</button>
-                        </div>
-                        <div>
-                            <button onClick={this.reduceSanity}>-</button>
-                            Sanity: {this.state.currentSanity}/{this.props.maxSanity}                        
-                            <button onClick={this.increaseSanity}>+</button>
-                        </div>
+                        <StatTracker stat="Damage" color="Red" current={this.state.currentDamage} max={this.props.maxDamage} reduce={this.reduceDamage} increase={this.increaseDamage}/>
+                        <StatTracker stat="Sanity" color="Blue" current={this.state.currentSanity} max={this.props.maxSanity} reduce={this.reduceSanity} increase={this.increaseSanity}/>
                     </div>
                 </div>
             </div>
