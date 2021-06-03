@@ -1,5 +1,5 @@
 import './App.css';
-import RolandBanks from './arkham/investigators/roland-banks/RolandBanks';
+import InvestigatorPicker from './arkham/investigators/investigator-picker';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         </p>
       </header>
       <div className="App-body">
-        <RolandBanks/>
+        <InvestigatorPicker/>
       </div>
     </div>
   );
