@@ -1,7 +1,7 @@
 {
     "name": "Roland Banks",
     "class": "Guardian",
-    "picture": "rolandBanks",
+    "picture": "/investigator-profiles/RolandBanksProfile-64.png",
     "maxDamage": 9,
     "maxSanity": 5,
     "stats": {
