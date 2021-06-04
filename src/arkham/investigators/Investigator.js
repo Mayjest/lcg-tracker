@@ -91,12 +91,12 @@ class Investigator extends React.Component {
                         <span className="investigator-name">{this.props.profile.name}</span>
                         <span className="investigator-class">{this.props.profile.class}</span>
                         <div className="investigator-skill">
-                            <span>{this.props.profile.stats.intellect}</span>
-                            <img src={intellect} alt="Intellect" width="28px" height="28px"></img>
-                        </div>
-                        <div className="investigator-skill">
                             <span>{this.props.profile.stats.willpower}</span>
                             <img src={willpower} alt="Willpower" width="28px" height="28px"></img>
+                        </div>
+                        <div className="investigator-skill">
+                            <span>{this.props.profile.stats.intellect}</span>
+                            <img src={intellect} alt="Intellect" width="28px" height="28px"></img>
                         </div>
                         <div className="investigator-skill">
                             <span>{this.props.profile.stats.combat}</span>
