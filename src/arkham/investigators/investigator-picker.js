@@ -8,10 +8,10 @@ class InvestigatorPicker extends React.Component {
         super(props)
         this.state = {
             chosenInvestigator: null
-        }
+        }        
     }
 
-    chooseInvestigator(event){
+    chooseInvestigator = (event) => {
         console.log("in event" + event);
         this.setState(() => ({
             chosenInvestigator: event.target.value}));
@@ -19,26 +19,24 @@ class InvestigatorPicker extends React.Component {
 
     render(){
         if (this.state.chosenInvestigator){
-            var data = investigatorData.investigators.map((gator) => {
+            var data = investigatorData.investigators.find((gator) => {
                 if (gator.name === this.state.chosenInvestigator){
                     console.log('Match ' + gator.name);
                     return gator;
                 }
-                return null;
             })
-            console.log (data);
             return <Investigator profile={data} />
         }
         else {
             var names = investigatorData.investigators.map((gator) => {
-                return <option>{gator.name}</option>;
+                return <option key={gator.name}>{gator.name}</option>;
             });
 
             names.unshift(<option>Choose Investigator</option>);
             console.log(names);
 
             return (
-                <select onChange={this.chosenInvestigator}>{names}</select>
+                <select onChange={this.chooseInvestigator}>{names}</select>
             )
         }
     }

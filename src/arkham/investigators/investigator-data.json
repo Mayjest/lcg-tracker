@@ -4,7 +4,7 @@
             "name": "Roland Banks",
             "subtitle": "The Fed",
             "class": "Guardian",
-            "picture": "./RolandBanksProfile-64.png",
+            "picture": "/investigator-profiles/RolandBanksProfile-64.png",
             "maxDamage": 9,
             "maxSanity": 5,
             "stats": {
@@ -18,7 +18,7 @@
             "name": "Daisy Walker",
             "subtitle": "The Librarian",
             "class": "Seeker",
-            "picture": "./RolandBanksProfile-64.png",
+            "picture": "/investigator-profiles/DaisyWalkerProfile-64.png",
             "maxDamage": 5,
             "maxSanity": 9,
             "stats": {
