@@ -12,7 +12,6 @@ class InvestigatorPicker extends React.Component {
     }
 
     chooseInvestigator = (event) => {
-        console.log("in event" + event);
         this.setState(() => ({
             chosenInvestigator: event.target.value}));
     }
@@ -20,11 +19,8 @@ class InvestigatorPicker extends React.Component {
     render(){
         if (this.state.chosenInvestigator){
             var data = investigatorData.investigators.find((gator) => {
-                if (gator.name === this.state.chosenInvestigator){
-                    console.log('Match ' + gator.name);
-                    return gator;
-                }
-            })
+                return  gator.name === this.state.chosenInvestigator;
+            });
             return <Investigator profile={data} />
         }
         else {

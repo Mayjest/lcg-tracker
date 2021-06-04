@@ -11,6 +11,9 @@ function App() {
       </header>
       <div className="App-body">
         <InvestigatorPicker/>
+        <InvestigatorPicker/>
+        <InvestigatorPicker/>
+        <InvestigatorPicker/>
       </div>
     </div>
   );

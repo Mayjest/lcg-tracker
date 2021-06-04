@@ -1,6 +1,5 @@
 .investigator {
-    height: 0;
-    flex-grow: 1;
+    margin: 20px;
 }
 
 .investigator-wrapper {
