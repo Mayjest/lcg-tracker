@@ -4,7 +4,7 @@
             "name": "Roland Banks",
             "subtitle": "The Fed",
             "class": "Guardian",
-            "picture": "/investigator-profiles/RolandBanksProfile-64.png",
+            "picture": "lcg-tracker/investigator-profiles/RolandBanksProfile-64.png",
             "maxDamage": 9,
             "maxSanity": 5,
             "stats": {
@@ -18,7 +18,7 @@
             "name": "Daisy Walker",
             "subtitle": "The Librarian",
             "class": "Seeker",
-            "picture": "/investigator-profiles/DaisyWalkerProfile-64.png",
+            "picture": "lcg-tracker/investigator-profiles/DaisyWalkerProfile-64.png",
             "maxDamage": 5,
             "maxSanity": 9,
             "stats": {
@@ -32,7 +32,7 @@
             "name": "\"Skids\" O'Toole",
             "subtitle": "The Ex-Con",
             "class": "Rogue",
-            "picture": "/investigator-profiles/SkidsOTooleProfile-64.png",
+            "picture": "lcg-tracker/investigator-profiles/SkidsOTooleProfile-64.png",
             "maxDamage": 8,
             "maxSanity": 6,
             "stats": {
@@ -46,7 +46,7 @@
             "name": "Agnes Baker",
             "subtitle": "The Waitress",
             "class": "Mystic",
-            "picture": "/investigator-profiles/AgnesBakerProfile-64.png",
+            "picture": "lcg-tracker/investigator-profiles/AgnesBakerProfile-64.png",
             "maxDamage": 6,
             "maxSanity": 8,
             "stats": {
@@ -60,7 +60,7 @@
             "name": "Wendy Adams",
             "subtitle": "The Urchin",
             "class": "Survivor",
-            "picture": "/investigator-profiles/WendyAdamsProfile-64.png",
+            "picture": "lcg-tracker/investigator-profiles/WendyAdamsProfile-64.png",
             "maxDamage": 7,
             "maxSanity": 7,
             "stats": {
